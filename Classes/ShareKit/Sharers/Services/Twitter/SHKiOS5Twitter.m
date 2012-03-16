@@ -76,7 +76,7 @@
     [iOS5twitter addURL:self.item.URL];
     
     if (self.item.shareType == SHKShareTypeText ) {
-        [iOS5twitter setInitialText:[item.text length]>140 ? [item.text substringToIndex:140] : item.text];
+        [iOS5twitter setInitialText:item.text];
     } else {
         [iOS5twitter setInitialText:[item.title length]>140 ? [item.title substringToIndex:140] : item.title];
     }
