@@ -52,7 +52,7 @@
 						 SHKMyAppName, @"appName", 
 						 SHKMyAppURL, @"appURL", 
                          [NSNumber numberWithBool:SHKFacebookUseSessionProxy], @"facebookUseSessionProxy",
-                         
+ /*                        
                          SHKSinaWeiboConsumerKey, @"sinaWeiboConsumerKey", 
 						 SHKSinaWeiboConsumerSecret, @"sinaWeiboConsumerSecret", 
 						 SHKSinaWeiboCallbackUrl, @"sinaWeiboCallbackUrl", 
@@ -62,6 +62,7 @@
                          SHKDoubanConsumerKey, @"doubanConsumerKey", 
 						 SHKDoubanConsumerSecret, @"doubanConsumerSecret", 
 						 SHKDoubanCallbackUrl, @"doubanCallbackUrl", 
+*/
 						 SHKVkontakteAppID, @"vkontakteAppId",				 
 						 SHKFacebookAppID, @"facebookAppId",
 						 SHKFacebookLocalAppID, @"facebookLocalAppId",
